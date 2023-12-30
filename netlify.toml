@@ -1,0 +1,11 @@
+# netlify.toml
+
+[build]
+  command = "npm run build"
+  publish = "out"  # Carpeta donde se encuentra la salida de la construcción
+
+[build.environment]
+  NODE_VERSION = "14"  # La versión de Node.js que deseas usar
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
