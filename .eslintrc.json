@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    // Otras extensiones que puedas tener
+  ],
+  "rules": {
+    "originalKeywordKind": "off",
+    // Otras reglas que puedas tener
+  }
 }
