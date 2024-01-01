@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Matias Ramos",
+    designation: "CEO @Storepia",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "La experiencia con mystudio.dev ha sido increíble. Un diseño intuitivo, limpio y sin distracciones, es la herramienta perfecta para construir comunidades en línea.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Juan Soto",
+    designation: "Fundador @Henaojara",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Como fundador, siempre busco soluciones efectivas. Con mystudio.dev encontré un aliado valioso. Intuitivo, limpio y sin distracciones, es esencial para construir y hacer crecer mi comunidad.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Andrés Mendoza",
+    designation: "Fundador @Accionvenus",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Desde que utilizamos mystudio.dev, nuestros miembros no paran de elogiar la plataforma. Es intuitiva, limpia y realmente potente. Ideal para cualquier emprendimiento digital.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Lo que opinan nuestros clientes"
+          paragraph="En mystudio.dev, nos enorgullece compartir las experiencias de quienes confían en nosotros. Descubre lo que dicen quienes ya han transformado sus proyectos con nuestra plataforma:"
           center
         />
 
