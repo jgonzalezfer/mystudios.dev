@@ -139,7 +139,7 @@ const Footer = () => {
                       href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      TOS
+                      Términos de Servicio
                     </a>
                   </li>
                   <li>
@@ -147,7 +147,7 @@ const Footer = () => {
                       href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Política de Privacidad
                     </a>
                   </li>
                   <li>
@@ -155,7 +155,7 @@ const Footer = () => {
                       href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Política de Reembolso 
                     </a>
                   </li>
                 </ul>
