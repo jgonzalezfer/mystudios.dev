@@ -11,13 +11,13 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Precios sencillos y asequibles"
+          paragraph="Explora nuestras opciones de precios diseñadas para adaptarse a tus necesidades, sin complicaciones ni sorpresas ocultas. Te ofrecemos soluciones asequibles para potenciar tu presencia en línea."
           center
-          width="665px"
+          width="665pssx"
         />
 
-        <div className="w-full">
+        {/* <div className="w-full">
           <div
             className="wow fadeInUp mb-8 flex justify-center md:mb-12 lg:mb-16"
             data-wow-delay=".1s"
@@ -58,14 +58,14 @@ const Pricing = () => {
               Yearly
             </span>
           </div>
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="SITIOS WEB & ECOMMERCE"
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""}
+            subtitle="Desarrollamos sitios web y auténticas experiencias eCommerce centradas en conversiones y ventas. Deja que tu tienda virtual se encargue de todo mientras tú te concentras en la logística."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />
@@ -75,10 +75,10 @@ const Pricing = () => {
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="OPTIMIZACIÓN PARA MOTORES DE BÚSQUEDA (SEO)            "
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""}
+            subtitle="Utilizando las mejores prácticas y SEO ético, posicionamos tu sitio web de forma orgánica en los principales motores de búsqueda, logrando un aumento sostenido de posición a medio y largo plazo."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />
@@ -88,10 +88,24 @@ const Pricing = () => {
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="INTEGRACIONES"
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""}
+            subtitle="Realizamos integraciones para que puedas recibir pagos en tu sitio web a través de WebPay+ de Transbank, Flow, MercadoPago y Khipu. También ofrecemos integraciones sencillas con Google Analytics, Facebook Pixel, Mailchimp y más."
+          >
+            <OfferList text="All UI Components" status="active" />
+            <OfferList text="Use with Unlimited Projects" status="active" />
+            <OfferList text="Commercial Use" status="active" />
+            <OfferList text="Email Support" status="active" />
+            <OfferList text="Lifetime Access" status="active" />
+            <OfferList text="Free Lifetime Updates" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="EMAIL MARKETING"
+            price={isMonthly ? "" : ""}
+            duration={isMonthly ? "" : ""}
+            subtitle="EMAIL MARKETING
+            Diseñamos estrategias efectivas para campañas de Email Marketing, utilizando plataformas como MailChimp o sistemas integrados en tu sitio web en WordPress y WooCommerce. Recupera carritos abandonados y mantiene la interacción con tus clientes."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />
