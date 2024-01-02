@@ -14,6 +14,7 @@ const Pricing = () => {
           title="Precios sencillos y asequibles"
           paragraph="Explora nuestras opciones de precios diseñadas para adaptarse a tus necesidades, sin complicaciones ni sorpresas ocultas. Te ofrecemos soluciones asequibles para potenciar tu presencia en línea."
           center
+          id ="precios"
           width="665pssx"
         />
 

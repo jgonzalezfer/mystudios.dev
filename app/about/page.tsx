@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About us| mystudio.dev - Desarrollo Web y eCommerce en Chile",
+  title: "Sobre nosotros | mystudio.dev - Desarrollo Web y eCommerce en Chile",
   description: "Explora nuestra Página Acerca de Nosotros y descubre cómo mystudio.dev impulsa la innovación en el desarrollo web y móvil. ",
 };
 
