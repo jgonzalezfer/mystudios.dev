@@ -5,17 +5,16 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
-  // other metadata
+  title: "Sobre nosotros | mystudio.dev - Desarrollo Web y eCommerce en Chile",
+  description: "Explora nuestra Página Acerca de Nosotros y descubre cómo mystudio.dev impulsa la innovación en el desarrollo web y móvil. ",
 };
 
 const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About us"
+        description="Acerca de Nosotros, donde la innovación y el compromiso se entrelazan. Estamos aquí para ofrecerte una visión más profunda de nuestra misión y cómo transformamos ideas en experiencias digitales excepcionales."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

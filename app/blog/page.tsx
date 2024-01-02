@@ -1,3 +1,4 @@
+import Pagination from "@/components/Pagination/Pagination";
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
@@ -5,17 +6,21 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
+  title: "Página del Blog | mystudio.dev - Desarrollo Web y eCommerce en Chile",
+  description: "Explora las últimas noticias y conocimientos en nuestra Página del Blog. Descubre cómo mystudio.dev impulsa la innovación en el desarrollo web y móvil para startups y empresas en Chile.",
+  // otros metadatos
 };
 
 const Blog = () => {
+  // Replace these values with your actual pagination logic
+  const currentPage = 1;
+  const totalPages = 12;
+
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Blog"
+        description="Explora nuestras últimas publicaciones y mantente al día con las tendencias y conocimientos más recientes. Descubre cómo mystudio.dev está transformando el panorama digital con contenido relevante y perspicaz."
       />
 
       <section className="pb-[120px] pt-[120px]">
@@ -31,68 +36,8 @@ const Blog = () => {
             ))}
           </div>
 
-          <div
-            className="wow fadeInUp -mx-4 flex flex-wrap"
-            data-wow-delay=".15s"
-          >
-            <div className="w-full px-4">
-              <ul className="flex items-center justify-center pt-8">
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    Prev
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    1
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    2
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    3
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <span className="flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color">
-                    ...
-                  </span>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    12
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    Next
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          {/* Pagination component here */}
+          {/* <Pagination currentPage={currentPage} totalPages={totalPages} /> */}
         </div>
       </section>
     </>

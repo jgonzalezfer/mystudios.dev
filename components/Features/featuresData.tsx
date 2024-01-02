@@ -12,9 +12,9 @@ const featuresData: Feature[] = [
         <path d="M23.2222 0C22.6699 0 22.2222 0.447715 22.2222 1V12.3333C22.2222 12.8856 22.6699 13.3333 23.2222 13.3333H39C39.5523 13.3333 40 12.8856 40 12.3333V0.999999C40 0.447714 39.5523 0 39 0H23.2222ZM0 39C0 39.5523 0.447715 40 1 40H16.7778C17.3301 40 17.7778 39.5523 17.7778 39V27.6667C17.7778 27.1144 17.3301 26.6667 16.7778 26.6667H1C0.447716 26.6667 0 27.1144 0 27.6667V39ZM0 21.2222C0 21.7745 0.447715 22.2222 1 22.2222H16.7778C17.3301 22.2222 17.7778 21.7745 17.7778 21.2222V0.999999C17.7778 0.447714 17.3301 0 16.7778 0H1C0.447716 0 0 0.447715 0 1V21.2222Z" />
       </svg>
     ),
-    title: "Crafted for Startups",
+    title: "Desarrollo de Sitios Web",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Transformamos conceptos en experiencias digitales excepcionales. Sea un sitio web corporativo, un blog personal o una plataforma de comercio electrónico, nuestro equipo de expertos en desarrollo web emplea las últimas tecnologías para construir soluciones a medida. Cada página que creamos es única, al igual que las historias que tú deseas contar.",
   },
   {
     id: 1,
@@ -27,9 +27,9 @@ const featuresData: Feature[] = [
         <path d="M19.408 28.931C19.7603 29.1896 20.2396 29.1894 20.5918 28.9306L36.3556 17.3466L38.8979 15.4883C39.4437 15.0894 39.4446 14.275 38.8996 13.8749L20.5918 0.43445C20.2396 0.175911 19.7604 0.175913 19.4082 0.434452L1.09706 13.8774C0.553051 14.2767 0.552712 15.0892 1.09638 15.4891L3.62222 17.3466L19.408 28.931Z" />
       </svg>
     ),
-    title: "High-quality Design",
+    title: "Comercio Electrónico",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "¿Listo para llevar tu negocio al siguiente nivel? Diseñamos y desarrollamos tiendas en línea que no solo cautivan visualmente, sino que también ofrecen una navegación intuitiva y un entorno seguro. Cuidamos cada detalle, desde la interfaz de usuario hasta el proceso de pago, para asegurar una experiencia de compra incomparable.",
   },
   {
     id: 1,
@@ -42,9 +42,9 @@ const featuresData: Feature[] = [
         <path d="M20 15C22.75 15 25 17.25 25 20C25 22.75 22.75 25 20 25C17.25 25 15 22.75 15 20C15 17.25 17.25 15 20 15ZM20 0C22.75 0 25 2.25 25 5C25 7.75 22.75 10 20 10C17.25 10 15 7.75 15 5C15 2.25 17.25 0 20 0ZM5 30C7.75 30 10 32.25 10 35C10 37.75 7.75 40 5 40C2.25 40 0 37.75 0 35C0 32.25 2.25 30 5 30ZM5 15C7.75 15 10 17.25 10 20C10 22.75 7.75 25 5 25C2.25 25 0 22.75 0 20C0 17.25 2.25 15 5 15ZM5 0C7.75 0 10 2.25 10 5C10 7.75 7.75 10 5 10C2.25 10 0 7.75 0 5C0 2.25 2.25 0 5 0ZM35 0C37.75 0 40 2.25 40 5C40 7.75 37.75 10 35 10C32.25 10 30 7.75 30 5C30 2.25 32.25 0 35 0Z" />
       </svg>
     ),
-    title: "Next.js 13 (Latest)",
+    title: "Desarrollo de Aplicaciones con React Native",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Amplía tu presencia digital más allá de la web con aplicaciones móviles potentes y versátiles. Utilizando React Native, nuestro equipo crea aplicaciones que funcionan de manera fluida en plataformas iOS y Android. Brindamos a tus usuarios una experiencia consistente y envolvente, llevando la interacción a nuevos niveles de innovación y comodidad.",
   },
   {
     id: 1,
@@ -59,7 +59,7 @@ const featuresData: Feature[] = [
     ),
     title: "Tailwind CSS",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Con Tailwind CSS, cada elemento se moldea con precisión y elegancia. Creamos interfaces atractivas y funcionales que destacan tu marca de manera única. ¿Listo para una estética moderna y personalizada?",
   },
   {
     id: 1,
@@ -72,9 +72,9 @@ const featuresData: Feature[] = [
         <rect width="28" height="28" rx="1" />
       </svg>
     ),
-    title: "Fully Customizable",
+    title: "Totalmente Personalizable",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Nos enorgullece ofrecer soluciones totalmente adaptables a tus necesidades. Personalizamos cada aspecto para que tu presencia en línea sea auténtica y efectiva. ¿Tienes una visión específica? La hacemos realidad.",
   },
   {
     id: 1,
@@ -87,9 +87,9 @@ const featuresData: Feature[] = [
         <path d="M18.9474 32.6316C18.9474 35.4705 19.8099 38.0969 21.2941 40.2796C21.7904 41.0094 21.3054 42.1053 20.4229 42.1053H4.21053C1.87368 42.1053 0 40.2316 0 37.8947V4.21053C0 1.89474 1.87368 0 4.21053 0H6.31579H16.8421H29.4737C31.7895 0 33.6842 1.87368 33.6842 4.21053V17.9544C33.6842 18.5032 33.1804 18.9474 32.6316 18.9474C25.0737 18.9474 18.9474 25.0737 18.9474 32.6316Z" />
       </svg>
     ),
-    title: "Free and Open-Source",
+    title: "Libre y de Código Abierto",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Creemos en la libertad digital. Nuestras soluciones son libres y de código abierto, garantizando flexibilidad y transparencia. ¿Listo para un enfoque sin restricciones y lleno de posibilidades?",
   },
 ];
 export default featuresData;
