@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
@@ -14,7 +14,8 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="Estamos dispuestos a ayudar"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Estamos aquí para ofrecerte nuestro apoyo y guía en cada paso de tu proyecto. Exploramos diversas posibilidades para 
+          asegurar que tu visión se traduzca en soluciones digitales excepcionales. "
           center
           mb="80px"
         />

@@ -19,7 +19,8 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  Los mejores componentes de interfaz de usuario para sitios web modernos                </h2>
+                  9 formas sencillas de mejorar tus habilidades de diseño
+                </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
                     <div className="mb-5 mr-10 flex items-center">
@@ -58,7 +59,7 @@ const BlogDetailsPage = () => {
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        12 May 2023
+                        15 June 2023
                       </p>
                       {/* <p className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
@@ -87,7 +88,7 @@ const BlogDetailsPage = () => {
                             <path d="M19.7559 5.625C17.6934 2.375 14.1309 0.4375 10.2559 0.4375C6.38086 0.4375 2.81836 2.375 0.755859 5.625C0.630859 5.84375 0.630859 6.125 0.755859 6.34375C2.81836 9.59375 6.38086 11.5312 10.2559 11.5312C14.1309 11.5312 17.6934 9.59375 19.7559 6.34375C19.9121 6.125 19.9121 5.84375 19.7559 5.625ZM10.2559 10.4375C6.84961 10.4375 3.69336 8.78125 1.81836 5.96875C3.69336 3.1875 6.84961 1.53125 10.2559 1.53125C13.6621 1.53125 16.8184 3.1875 18.6934 5.96875C16.8184 8.78125 13.6621 10.4375 10.2559 10.4375Z" />
                           </svg>
                         </span>
-                        35
+                        47
                       </p>
                     </div>
                   </div>
@@ -102,28 +103,26 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Al comprender la importancia de la navegación intuitiva, la velocidad de carga, la adaptabilidad móvil y la accesibilidad, los lectores podrán implementar cambios significativos que beneficiarán tanto a sus usuarios como al rendimiento general de sus sitios web.                  </p>
+                    El diseño web es una disciplina dinámica que requiere habilidades constantemente actualizadas para mantenerse relevante en un mundo digital en constante cambio. En este artículo, exploraremos nueve formas prácticas de mejorar tus habilidades de diseño, desde estudiar tendencias hasta participar en comunidades de diseñadores.
+                  </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/interfazusuarioamazon.webp"
+                        src="/images/blog/9-formas-sencillas.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
                       />
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    La Experiencia del Usuario (UX) ha evolucionado para convertirse en un factor crucial en el éxito de un sitio web. La forma en que los visitantes interactúan con un sitio no solo afecta la retención de usuarios, sino que también impacta en la percepción de la marca. En este blog, exploraremos estrategias efectivas para optimizar la UX en tu sitio web, mejorando la interacción y proporcionando a tus usuarios una experiencia satisfactoria y memorable.
-                  </p>
+
 
                   <div>
                     <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                      1. Navegación Intuitiva:
+                      1. Estudia las Tendencias Actuales
                     </h3>
                     <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                      La base de una buena experiencia del usuario comienza con la navegación. Discutiremos cómo crear una estructura de navegación intuitiva, organizando el contenido de manera lógica para que los usuarios encuentren fácilmente lo que están buscando. Analizaremos ejemplos de sitios web líderes que han implementado una navegación efectiva para inspirar mejoras en tu propio diseño.
-                    </p>
+                      Mantente al tanto de las tendencias emergentes en el diseño web explorando sitios populares, blogs y plataformas especializadas. La inspiración puede provenir de diversas fuentes, permitiéndote integrar ideas frescas en tus propios proyectos.                    </p>
                     {/* <ul className="mb-10 list-inside list-disc text-body-color">
                       <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                         Importancia de la Experiencia del Usuario:
@@ -142,31 +141,10 @@ const BlogDetailsPage = () => {
 
                   <div>
                     <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                      2. Velocidad de Carga Eficiente:
+                      2. Participa en Comunidades de Diseñadores
                     </h3>
                     <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                      La velocidad de carga influye significativamente en la retención de usuarios. Exploraremos técnicas para optimizar la velocidad de carga, desde la compresión de imágenes hasta la minimización del código. También discutiremos la importancia de la optimización para dispositivos móviles, teniendo en cuenta la diversidad de plataformas que los usuarios utilizan para acceder a la web.                    </p>
-                    {/* <ul className="mb-10 list-inside list-disc text-body-color">
-                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                        Importancia de la Experiencia del Usuario:
-                      </li>
-                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                        Mattis vulputate cupidatat.
-                      </li>
-                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                        Vulputate enim nulla aliquet porttitor odio pellentesque
-                      </li>
-                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                        Ligula ullamcorper malesuada proin
-                      </li>
-                    </ul> */}
-                  </div>
-                  <div>
-                    <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                      3. Adaptabilidad Móvil:
-                    </h3>
-                    <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                      Con el aumento del tráfico desde dispositivos móviles, es esencial garantizar una experiencia consistente en todas las plataformas. Abordaremos estrategias para diseñar sitios web responsivos, asegurándonos de que la interfaz se adapte de manera efectiva a diferentes tamaños de pantalla y funcione de manera óptima en dispositivos móviles.
+                      La colaboración es clave para el crecimiento profesional. Únete a comunidades en línea donde puedas compartir tus experiencias, obtener retroalimentación valiosa y aprender de otros diseñadores. La diversidad de perspectivas enriquecerá tu enfoque creativo.
                     </p>
                     {/* <ul className="mb-10 list-inside list-disc text-body-color">
                       <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
@@ -185,10 +163,142 @@ const BlogDetailsPage = () => {
                   </div>
                   <div>
                     <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    4. Accesibilidad:
+                      3. Practica con Proyectos Personales
                     </h3>
                     <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    La accesibilidad es clave para llegar a una audiencia diversa. Hablaremos sobre cómo implementar prácticas que hagan tu sitio web accesible para personas con discapacidades, mejorando la usabilidad para todos los usuarios. Examinaremos pautas de accesibilidad y herramientas disponibles para evaluar y mejorar la accesibilidad de tu sitio.                    </p>
+                      La práctica constante es esencial para el desarrollo de habilidades. Dedica tiempo a proyectos personales que te permitan experimentar y aplicar lo que aprendes en un entorno libre de restricciones comerciales.
+                    </p>
+                    {/* <ul className="mb-10 list-inside list-disc text-body-color">
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Importancia de la Experiencia del Usuario:
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Mattis vulputate cupidatat.
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Vulputate enim nulla aliquet porttitor odio pellentesque
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Ligula ullamcorper malesuada proin
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div>
+                    <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                      4. Mantén un Portafolio Actualizado
+                    </h3>
+                    <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                      Tu portafolio es tu carta de presentación. Asegúrate de destacar tus proyectos más recientes y significativos. Esto no solo muestra tus habilidades, sino que también demuestra tu progresión a lo largo del tiempo.
+                    </p>
+                    {/* <ul className="mb-10 list-inside list-disc text-body-color">
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Importancia de la Experiencia del Usuario:
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Mattis vulputate cupidatat.
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Vulputate enim nulla aliquet porttitor odio pellentesque
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Ligula ullamcorper malesuada proin
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div>
+                    <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                      5. Aprende Nuevas Herramientas y Software
+                    </h3>
+                    <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                      La tecnología evoluciona constantemente. Amplía tu conjunto de habilidades aprendiendo nuevas herramientas y software. La versatilidad te hará más eficiente y preparado para enfrentar una variedad de proyectos.
+                    </p>
+                    {/* <ul className="mb-10 list-inside list-disc text-body-color">
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Importancia de la Experiencia del Usuario:
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Mattis vulputate cupidatat.
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Vulputate enim nulla aliquet porttitor odio pellentesque
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Ligula ullamcorper malesuada proin
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div>
+                    <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                      6. Recibe Retroalimentación Constructiva
+                    </h3>
+                    <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                      Comparte tus trabajos con colegas y amigos para recibir retroalimentación constructiva. Aprender de las críticas te permitirá identificar áreas de mejora y perfeccionar tus habilidades de diseño.                    </p>
+                    {/* <ul className="mb-10 list-inside list-disc text-body-color">
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Importancia de la Experiencia del Usuario:
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Mattis vulputate cupidatat.
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Vulputate enim nulla aliquet porttitor odio pellentesque
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Ligula ullamcorper malesuada proin
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div>
+                    <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                      7. Estudia Psicología del Color y Diseño UX/UI
+                    </h3>
+                    <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                      La comprensión de la psicología del color y los principios de UX/UI contribuye a la creación de diseños más efectivos. Dedica tiempo a estudiar estos aspectos fundamentales para mejorar la experiencia del usuario en tus proyectos.
+                    </p>
+                    {/* <ul className="mb-10 list-inside list-disc text-body-color">
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Importancia de la Experiencia del Usuario:
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Mattis vulputate cupidatat.
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Vulputate enim nulla aliquet porttitor odio pellentesque
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Ligula ullamcorper malesuada proin
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div>
+                    <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                      8. Inspírate en Otros Campos Creativos
+                    </h3>
+                    <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                      Explora otras disciplinas creativas, como la fotografía o la arquitectura, para obtener inspiración fresca. La diversidad de influencias puede dar lugar a soluciones de diseño únicas y atractivas.
+                    </p>
+                    {/* <ul className="mb-10 list-inside list-disc text-body-color">
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Importancia de la Experiencia del Usuario:
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Mattis vulputate cupidatat.
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Vulputate enim nulla aliquet porttitor odio pellentesque
+                      </li>
+                      <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                        Ligula ullamcorper malesuada proin
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div>
+                    <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                      9. Asiste a Conferencias y Talleres
+                    </h3>
+                    <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                      Las conferencias y talleres ofrecen oportunidades únicas para aprender de expertos y mantenerse actualizado. Estas experiencias te conectarán con la comunidad de diseño y te proporcionarán conocimientos valiosos.
+                    </p>
                     {/* <ul className="mb-10 list-inside list-disc text-body-color">
                       <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                         Importancia de la Experiencia del Usuario:
@@ -207,8 +317,7 @@ const BlogDetailsPage = () => {
 
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                    En conclusión, la optimización de la experiencia del usuario es un componente esencial para el éxito en línea. Al implementar estas estrategias, no solo mejorarás la interacción de los usuarios en tu sitio web, sino que también crearás una impresión positiva que se traducirá en lealtad y retención a largo plazo.
-                    </p>
+                      En conclusión, mejorar tus habilidades de diseño no solo es beneficioso para tu carrera, sino que también te permite destacar en un campo tan competitivo como el desarrollo web. Con dedicación, práctica y un enfoque continuo en el aprendizaje, puedes elevar tus diseños al siguiente nivel y mantener una presencia destacada en la vanguardia del diseño web. ¡Adelante, sigue aprendiendo y creciendo!                    </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
                         width="132"
@@ -351,7 +460,7 @@ const BlogDetailsPage = () => {
                     </span>
                   </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  La búsqueda constante de la mejora de la UX es fundamental en un entorno digital en constante cambio y evolución.
+                    Estos consejos te ayudarán a potenciar tu creatividad y a mantener tu trabajo alineado con las expectativas del mundo del diseño web.
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
