@@ -14,7 +14,7 @@ const Pricing = () => {
           title="Precios sencillos y asequibles"
           paragraph="Explora nuestras opciones de precios diseñadas para adaptarse a tus necesidades, sin complicaciones ni sorpresas ocultas. Te ofrecemos soluciones asequibles para potenciar tu presencia en línea."
           center
-          id ="precios"
+          id="precios"
           width="665pssx"
         />
 
@@ -68,12 +68,11 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle="Desarrollamos sitios web y auténticas experiencias eCommerce centradas en conversiones y ventas. Deja que tu tienda virtual se encargue de todo mientras tú te concentras en la logística."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Wordpress" status="active" />
+            <OfferList text="Shopify" status="active" />
+            <OfferList text="Web site code" status="active" />
+            <OfferList text="Ecommerce code" status="active" />
+            <OfferList text="Web site design" status="active" />
           </PricingBox>
           <PricingBox
             packageName="OPTIMIZACIÓN PARA MOTORES DE BÚSQUEDA (SEO)            "
@@ -81,12 +80,13 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle="Utilizando las mejores prácticas y SEO ético, posicionamos tu sitio web de forma orgánica en los principales motores de búsqueda, logrando un aumento sostenido de posición a medio y largo plazo."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Análisis de palabras claves del nicho" status="active" />
+            <OfferList text="Mejoras de codigo para el SEO" status="active" />
+            <OfferList text="Estructura de web page" status="active" />
+            <OfferList text="Integración Google analytics" status="active" />
+            <OfferList text="Integración Google search console" status="active" />
+            <OfferList text="Integración Google my business" status="active" />
+            <OfferList text="Integración Google tag manager" status="active" />
           </PricingBox>
           <PricingBox
             packageName="INTEGRACIONES"
@@ -94,12 +94,13 @@ const Pricing = () => {
             duration={isMonthly ? "" : ""}
             subtitle="Realizamos integraciones para que puedas recibir pagos en tu sitio web a través de WebPay+ de Transbank, Flow, MercadoPago y Khipu. También ofrecemos integraciones sencillas con Google Analytics, Facebook Pixel, Mailchimp y más."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="WebPay+" status="active" />
+            <OfferList text="Flow" status="active" />
+            <OfferList text="MercadoPago " status="active" />
+            <OfferList text="Khipu" status="active" />
+            <OfferList text="Google Analytics" status="active" />
+            <OfferList text="Facebook Pixel" status="active" />
+            <OfferList text="Más" status="active" />
           </PricingBox>
           <PricingBox
             packageName="EMAIL MARKETING"
@@ -108,12 +109,10 @@ const Pricing = () => {
             subtitle="EMAIL MARKETING
             Diseñamos estrategias efectivas para campañas de Email Marketing, utilizando plataformas como MailChimp o sistemas integrados en tu sitio web en WordPress y WooCommerce. Recupera carritos abandonados y mantiene la interacción con tus clientes."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Diseñamos estrategias" status="active" />
+            <OfferList text="MailChimp" status="active" />
+            <OfferList text="Automatización de correos " status="active" />
+            <OfferList text="Recupera carritos abandonados" status="active" />
           </PricingBox>
         </div>
       </div>
