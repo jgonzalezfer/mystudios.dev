@@ -107,7 +107,7 @@ const BlogDetailsPage = () => {
                                     <div className="mb-10 w-full overflow-hidden rounded">
                                         <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                                             <Image
-                                                src="/images/blog/Consejos para mejorar rapidame.webp"
+                                                src="/images/blog/consejos-para-mejorar-rapidame.jpg"
                                                 alt="image"
                                                 fill
                                                 className="object-cover object-center"
