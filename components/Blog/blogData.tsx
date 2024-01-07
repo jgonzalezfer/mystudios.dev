@@ -38,7 +38,7 @@ const blogData: Blog[] = [
     title: "Consejos para mejorar rápidamente su velocidad de codificación.",
     paragraph:
       "En el fascinante mundo del desarrollo web, la rapidez con la que puedes traducir ideas en código no solo es una destreza valiosa, sino que también puede marcar la diferencia en la productividad y la calidad del trabajo.",
-    image: "/images/blog/Consejos para mejorar rapidame.webp",
+    image: "/images/blog/consejos-para-mejorar-rapidame.jpg",
     author: {
       name: "Joel González",
       image: "/images/blog/jgonzalez.png",
