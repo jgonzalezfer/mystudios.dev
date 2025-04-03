@@ -41,19 +41,6 @@ const Services = () => {
               className="wow fadeInUp rounded-md bg-white p-8 shadow-one dark:bg-[#1D2144] transition-transform duration-300 hover:scale-[1.02]"
               data-wow-delay=".1s"
             >
-              {index === 1 && (
-                <div className="absolute -top-4 -right-4 hidden lg:block">
-                  <Image 
-                    src="/images/newpage/hero_ab.webp"
-                    alt="Decoración servicios"
-                    width={50}
-                    height={50}
-                    className="rounded-md shadow-md"
-                    quality={100}
-                  />
-                </div>
-              )}
-              
               <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-md bg-primary">
                 <div className="text-white">
                   <Icon name={service.icon} size={36} />

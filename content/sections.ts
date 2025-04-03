@@ -123,6 +123,41 @@ export const testimonialsContent = {
       role: "Founder, Innova App",
       content: "La experiencia de trabajar con MyStudio.dev ha sido extraordinaria. Su equipo talentoso y dedicado nos ayudó a crear una aplicación móvil innovadora que nuestros usuarios adoran.",
       avatar: "/images/blog/author-03.png"
+    },
+    {
+      id: "4",
+      name: "Ana Silva",
+      role: "Director Comercial, Grupo Retail",
+      content: "Nuestra tienda online aumentó sus ventas en un 40% tras la implementación del nuevo sistema. El equipo de MyStudio supo entender nuestras necesidades y ejecutar con precisión.",
+      avatar: "/images/blog/author-01.png"
+    },
+    {
+      id: "5",
+      name: "Roberto Méndez",
+      role: "Gerente de Marketing, TechGlobal",
+      content: "La plataforma desarrollada por MyStudio nos permitió automatizar procesos y reducir costos operativos. Su servicio de soporte post-implementación ha sido fundamental para nuestro éxito.",
+      avatar: "/images/blog/author-02.png"
+    },
+    {
+      id: "6",
+      name: "Carolina Torres",
+      role: "CEO, Startup Fintech",
+      content: "Elegimos a MyStudio por su experiencia en desarrollo de aplicaciones seguras. Entregaron un producto robusto y escalable que nos ha permitido crecer rápidamente en un mercado competitivo.",
+      avatar: "/images/blog/author-03.png"
+    },
+    {
+      id: "7",
+      name: "Diego Ramírez",
+      role: "Director de Operaciones, LogisticExpress",
+      content: "El sistema de gestión logística desarrollado por MyStudio revolucionó nuestra operación. Pasamos de procesos manuales a una plataforma digital que ha mejorado nuestra eficiencia en un 60%.",
+      avatar: "/images/blog/author-01.png"
+    },
+    {
+      id: "8",
+      name: "Valentina Ortega",
+      role: "Fundadora, ArtGallery Online",
+      content: "Buscábamos un diseño único que reflejara nuestra personalidad artística. MyStudio entendió perfectamente nuestra visión y creó una experiencia web que ha impresionado a nuestros visitantes.",
+      avatar: "/images/blog/author-02.png"
     }
   ]
 };
