@@ -108,21 +108,21 @@ export const testimonialsContent = {
       name: "Carlos Rodríguez",
       role: "CEO, TechSolutions Chile",
       content: "MyStudio.dev transformó nuestra presencia digital. Su enfoque profesional y su experiencia técnica nos permitieron lanzar una plataforma que ha superado todas nuestras expectativas.",
-      avatar: "/images/testimonials/user-1.jpg"
+      avatar: "/images/blog/author-01.png"
     },
     {
       id: "2",
       name: "María González",
       role: "Marketing Director, EcoVida",
       content: "Gracias a MyStudio.dev pudimos implementar nuestra tienda online en tiempo récord. El equipo entendió perfectamente nuestras necesidades y entregó un producto excepcional.",
-      avatar: "/images/testimonials/user-2.jpg"
+      avatar: "/images/blog/author-02.png"
     },
     {
       id: "3",
       name: "Juan Pérez",
       role: "Founder, Innova App",
       content: "La experiencia de trabajar con MyStudio.dev ha sido extraordinaria. Su equipo talentoso y dedicado nos ayudó a crear una aplicación móvil innovadora que nuestros usuarios adoran.",
-      avatar: "/images/testimonials/user-3.jpg"
+      avatar: "/images/blog/author-03.png"
     }
   ]
 };

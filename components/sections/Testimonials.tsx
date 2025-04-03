@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="testimonials" className="relative z-10 py-16 md:py-20 lg:py-28 bg-gray-50 dark:bg-[#151934]">
       <div className="container">
         <SectionTitle
           title={testimonialsContent.title}
@@ -18,31 +18,32 @@ const Testimonials = () => {
           {testimonialsContent.testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="wow fadeInUp rounded-md bg-white p-8 shadow-one dark:bg-[#1D2144] lg:px-5 xl:px-8"
+              className="wow fadeInUp rounded-md bg-white p-8 pt-16 shadow-one dark:bg-[#1D2144] lg:px-5 xl:px-8 relative"
               data-wow-delay=".1s"
             >
-              <div className="mb-5 flex items-center space-x-4">
-                <div className="relative h-[60px] w-[60px] overflow-hidden rounded-full">
+              <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
+                <div className="relative h-[100px] w-[100px] overflow-hidden rounded-full border-4 border-white dark:border-[#1D2144] shadow-md">
                   <Image
                     src={testimonial.avatar}
                     alt={testimonial.name}
                     fill
                     className="object-cover object-center"
+                    quality={100}
+                    sizes="100px"
                   />
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold text-black dark:text-white">
-                    {testimonial.name}
-                  </h3>
-                  <p className="text-sm text-body-color">{testimonial.role}</p>
                 </div>
               </div>
               
-              <p className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base font-medium italic text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
-                "{testimonial.content}"
-              </p>
-
-              <div className="flex items-center">
+              <div className="pt-14 text-center mb-5">
+                <h3 className="text-lg font-bold text-black dark:text-white">
+                  {testimonial.name}
+                </h3>
+                <p className="text-sm text-body-color dark:text-body-color-dark">
+                  {testimonial.role}
+                </p>
+              </div>
+              
+              <div className="flex justify-center items-center mb-5">
                 <div className="flex space-x-1">
                   {Array(5)
                     .fill("")
@@ -53,6 +54,10 @@ const Testimonials = () => {
                     ))}
                 </div>
               </div>
+              
+              <p className="text-center mb-8 border-t border-body-color border-opacity-10 pt-5 text-base font-medium italic text-body-color dark:border-white dark:border-opacity-10 dark:text-white/80">
+                "{testimonial.content}"
+              </p>
             </div>
           ))}
         </div>

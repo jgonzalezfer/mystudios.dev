@@ -10,6 +10,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import Pricing from "@/components/sections/Pricing";
 import Brands from "@/components/sections/Brands";
 import CallToAction from "@/components/sections/CallToAction";
+import SpeedSection from "@/components/sections/SpeedSection";
 
 // Componentes compartidos
 import ScrollToTop from "@/components/shared/ScrollToTop";
@@ -30,6 +31,7 @@ export default function Home() {
       <About />
       <Testimonials />
       <Pricing />
+      <SpeedSection />
       <CallToAction />
     </>
   );
