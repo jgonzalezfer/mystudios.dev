@@ -2,6 +2,7 @@
 import { heroContent } from "@/content/sections";
 import Link from "next/link";
 import Image from "next/image";
+import ScrollIndicator from "@/components/ui/ScrollIndicator";
 
 const Hero = () => {
   return (
@@ -74,6 +75,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div>
+        
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 hidden md:block">
+          <ScrollIndicator targetId="features" />
         </div>
       </div>
       

@@ -8,6 +8,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/shared/ScrollToTop";
+import WhatsAppButton from "@/components/shared/WhatsAppButton";
 
 // Estilos globales
 import "node_modules/react-modal-video/css/modal-video.css";
@@ -38,6 +39,7 @@ export default function RootLayout({
           <main className="flex min-h-screen flex-col">{children}</main>
           <Footer />
           <ScrollToTop />
+          <WhatsAppButton />
         </Providers>
       </body>
     </html>

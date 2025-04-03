@@ -19,11 +19,7 @@ const projectImages = [
 ];
 
 // Duplicamos los testimonios para tener más elementos para mostrar
-const extendedTestimonials = [
-  ...testimonialsContent.testimonials,
-  ...testimonialsContent.testimonials,
-  ...testimonialsContent.testimonials,
-].slice(0, 15); // Limitamos a 15 elementos (3 veces los testimonios originales o menos)
+const extendedTestimonials = testimonialsContent.testimonials;
 
 const Testimonials = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -75,19 +71,29 @@ const Testimonials = () => {
   };
 
   return (
-    <section id="testimonials" className="relative z-10 py-16 md:py-20 lg:py-28 bg-gray-50 dark:bg-[#151934] overflow-hidden">
-      <div className="container">
-        <SectionTitle
-          title={testimonialsContent.title}
-          paragraph={testimonialsContent.description}
-          center
-        />
+    <section id="testimonials" className="relative z-10 py-16 md:py-20 lg:py-28 overflow-hidden">
+      {/* Fondo con gradiente */}
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 via-gray-100 to-gray-50 dark:from-[#151934] dark:via-[#1a1f42] dark:to-[#151934]"></div>
+      
+      {/* Círculos decorativos */}
+      <div className="absolute top-20 left-10 w-40 h-40 rounded-full bg-primary opacity-5 blur-3xl"></div>
+      <div className="absolute bottom-20 right-10 w-60 h-60 rounded-full bg-primary opacity-5 blur-3xl"></div>
+      
+      <div className="container relative z-10">
+        <div className="text-center max-w-[700px] mx-auto mb-14">
+          <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[40px]">
+            {testimonialsContent.title}
+          </h2>
+          <p className="text-base font-medium leading-relaxed text-body-color dark:text-white/70 md:text-lg">
+            {testimonialsContent.description || "Lo que dicen nuestros clientes sobre nosotros"}
+          </p>
+        </div>
 
         <div className="relative mt-12">
           {/* Botón izquierda */}
           <button
             onClick={scrollLeft25}
-            className="absolute -left-3 lg:left-0 top-1/2 -translate-y-1/2 z-20 bg-white dark:bg-primary w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-100 dark:hover:bg-primary/90 focus:outline-none transition-all duration-300 transform hover:scale-110"
+            className="absolute -left-3 lg:-left-5 top-1/2 -translate-y-1/2 z-20 bg-white dark:bg-primary w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-100 dark:hover:bg-primary/90 focus:outline-none transition-all duration-300 transform hover:scale-110"
             aria-label="Desplazar a la izquierda"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -114,22 +120,28 @@ const Testimonials = () => {
                 key={`${testimonial.id}-${index}`}
                 className="flex-shrink-0 w-[280px] snap-start"
               >
-                <div className="bg-white dark:bg-[#1D2144] rounded-xl shadow-lg overflow-hidden h-full">
-                  {/* Imagen del proyecto */}
+                <div className="bg-white dark:bg-[#1D2144] rounded-xl shadow-lg overflow-hidden h-full transform transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl">
+                  {/* Imagen del testimonio */}
                   <div className="relative h-40 w-full">
                     <Image 
-                      src={projectImages[index % projectImages.length]}
-                      alt={`Proyecto ${testimonial.name}`}
+                      src={testimonial.avatar}
+                      alt={`Avatar de ${testimonial.name}`}
                       fill
                       className="object-cover"
                       quality={100}
                       sizes="280px"
+                      onError={(e) => {
+                        // Fallback a imagen de proyecto si hay error al cargar el avatar
+                        const target = e.target as HTMLImageElement;
+                        target.src = projectImages[index % projectImages.length];
+                        console.error(`Error cargando imagen ${testimonial.avatar}`);
+                      }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                     
                     {/* Estrellas superpuestas en la imagen */}
                     <div className="absolute bottom-2 left-2 flex space-x-1">
-                      {Array(5)
+                      {Array(testimonial.stars || 5)
                         .fill("")
                         .map((_, i) => (
                           <span key={i} className="text-yellow-500">
@@ -161,7 +173,7 @@ const Testimonials = () => {
           {/* Botón derecha */}
           <button
             onClick={scrollRight25}
-            className="absolute -right-3 lg:right-0 top-1/2 -translate-y-1/2 z-20 bg-white dark:bg-primary w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-100 dark:hover:bg-primary/90 focus:outline-none transition-all duration-300 transform hover:scale-110"
+            className="absolute -right-3 lg:-right-5 top-1/2 -translate-y-1/2 z-20 bg-white dark:bg-primary w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-100 dark:hover:bg-primary/90 focus:outline-none transition-all duration-300 transform hover:scale-110"
             aria-label="Desplazar a la derecha"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -171,7 +183,15 @@ const Testimonials = () => {
           
           {/* Indicador de desplazamiento (opcional, puedes mantenerlo o quitarlo) */}
           <div className="text-center mt-6 text-sm text-body-color dark:text-body-color-dark">
-            <span>← Desliza para ver más →</span>
+            <span className="inline-flex items-center px-3 py-1 bg-white/40 dark:bg-white/10 rounded-full backdrop-blur-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+              </svg>
+              Desliza para ver más
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </span>
           </div>
         </div>
       </div>

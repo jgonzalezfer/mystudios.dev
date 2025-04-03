@@ -8,27 +8,19 @@ import Image from "next/image";
 const Services = () => {
   return (
     <section id="services" className="py-16 md:py-20 lg:py-28 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-full h-full overflow-hidden opacity-5 pointer-events-none">
-        <Image 
-          src="/images/newpage/base-image.webp"
-          alt="Fondo de servicios"
-          fill
-          className="object-cover"
-        />
-      </div>
+      {/* Fondo de la sección */}
+      <div className="absolute inset-0 bg-white dark:bg-[#0e1330]"></div>
       
-      <div className="absolute -right-20 top-1/4 hidden lg:block opacity-40">
-        <Image 
-          src="/images/newpage/spinner-background.webp"
-          alt="Decoración"
-          width={200}
-          height={200}
-          className="rounded-full animate-pulse"
-        />
-      </div>
+      {/* Elementos decorativos sutiles */}
+      <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-primary/5 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-primary/5 to-transparent"></div>
+      
+      {/* Círculos decorativos */}
+      <div className="absolute top-20 right-10 w-64 h-64 rounded-full bg-primary/5 blur-3xl"></div>
+      <div className="absolute bottom-20 left-10 w-64 h-64 rounded-full bg-primary/5 blur-3xl"></div>
       
       <div className="container relative z-10">
-        <div className="mb-14 text-center">
+        <div className="mb-16 text-center">
           <h2 className="mb-6 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[40px] md:leading-tight">
             ¿Qué hacemos?
           </h2>
@@ -37,27 +29,34 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-4">
           {servicesContent.services.map((service, index) => (
             <div
               key={service.id}
-              className="wow fadeInUp rounded-md bg-white p-8 shadow-one dark:bg-[#1D2144] transition-transform duration-300 hover:scale-[1.02]"
+              className="wow fadeInUp group relative rounded-xl bg-white dark:bg-[#1D2144] p-8 shadow-sm hover:shadow-xl transition-all duration-500 border border-gray-100 dark:border-gray-800"
               data-wow-delay=".1s"
             >
-              <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-md bg-primary">
-                <div className="text-white">
+              {/* Decoración */}
+              <span className="absolute -top-8 -right-8 z-[-1] h-20 w-20 rounded-full bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+              
+              <div className="relative mb-8 flex h-16 w-16 items-center justify-center rounded-md bg-primary/10 dark:bg-primary/20">
+                <div className="text-primary dark:text-primary/90 group-hover:animate-pulse">
                   <Icon name={service.icon} size={36} />
                 </div>
+                <span className="absolute -bottom-1 -right-1 h-4 w-4 rounded-full border-2 border-white dark:border-gray-800 bg-primary"></span>
               </div>
-              <h3 className="mb-4 text-xl font-bold text-black dark:text-white">
+              
+              <h3 className="mb-4 text-xl font-bold text-black dark:text-white group-hover:text-primary dark:group-hover:text-primary transition-colors duration-300">
                 {service.title}
               </h3>
-              <p className="mb-8 text-body-color dark:text-body-color-dark">
+              
+              <p className="mb-8 text-body-color dark:text-body-color-dark border-b border-gray-200 dark:border-gray-700 pb-8">
                 {service.description}
               </p>
+              
               <Link 
                 href={service.link || "#"} 
-                className="inline-flex items-center justify-center px-6 py-2 bg-primary/10 text-primary rounded-lg hover:bg-primary hover:text-white transition-colors duration-300 font-medium"
+                className="inline-flex items-center justify-center px-6 py-3 bg-white dark:bg-gray-800 text-primary hover:text-white border border-primary/30 dark:border-primary/20 rounded-lg hover:bg-primary dark:hover:bg-primary transition-colors duration-300 font-medium shadow-sm hover:shadow-md"
               >
                 Saber más <span className="ml-2">→</span>
               </Link>

@@ -113,8 +113,15 @@ const Faq = () => {
   ];
 
   return (
-    <section id="faq" className="py-16 md:py-20 lg:py-28 bg-gray-50 dark:bg-[#151934]">
-      <div className="container px-4 mx-auto">
+    <section id="faq" className="py-16 md:py-20 lg:py-28 bg-gray-50 dark:bg-[#151934] relative">
+      {/* Patrón de fondo */}
+      <div className="absolute inset-0 bg-repeat opacity-5 pointer-events-none" 
+        style={{ 
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234A6CF7' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")` 
+        }}
+      ></div>
+      
+      <div className="container px-4 mx-auto relative z-10">
         <SectionTitle
           title="Preguntas Frecuentes"
           paragraph="Aquí encontrarás respuestas a las dudas más comunes sobre nuestros servicios y procesos."
@@ -123,9 +130,9 @@ const Faq = () => {
           mb="60px"
         />
 
-        <div className="max-w-[900px] mx-auto">
+        <div className="max-w-[900px] mx-auto bg-white/50 dark:bg-[#1D2144]/50 p-8 rounded-2xl backdrop-blur-sm">
           {faqData.map((category, categoryIndex) => (
-            <div key={categoryIndex} className="mb-12">
+            <div key={categoryIndex} className="mb-12 last:mb-0">
               <div className="flex items-center mb-6">
                 <div className="flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-4">
                   <Icon name={category.icon} size={28} />
@@ -140,13 +147,13 @@ const Faq = () => {
                   return (
                     <div 
                       key={itemIndex} 
-                      className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+                      className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 bg-white dark:bg-[#1D2144]"
                     >
                       <button
                         className={`flex w-full justify-between items-center p-4 md:p-5 text-left ${
                           isOpen
                             ? "bg-primary bg-opacity-5"
-                            : "bg-white dark:bg-[#1D2144]"
+                            : ""
                         }`}
                         onClick={() => handleToggle(categoryIndex, itemIndex)}
                       >
