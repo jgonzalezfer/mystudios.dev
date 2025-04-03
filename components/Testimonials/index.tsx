@@ -10,7 +10,7 @@ const testimonialData: Testimonial[] = [
     content:
       "La experiencia con mystudio.dev ha sido increíble. Un diseño intuitivo, limpio y sin distracciones, es la herramienta perfecta para construir comunidades en línea.",
     image: "/images/testimonials/auth-01.png",
-    star: 5,
+    star: 4.5,
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const testimonialData: Testimonial[] = [
     content:
       "Desde que utilizamos mystudio.dev, nuestros miembros no paran de elogiar la plataforma. Es intuitiva, limpia y realmente potente. Ideal para cualquier emprendimiento digital.",
     image: "/images/testimonials/auth-03.png",
-    star: 5,
+    star: 4.5,
   },
 ];
 
