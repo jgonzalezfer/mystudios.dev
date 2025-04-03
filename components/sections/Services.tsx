@@ -28,11 +28,14 @@ const Services = () => {
       </div>
       
       <div className="container relative z-10">
-        <SectionTitle
-          title={servicesContent.title}
-          paragraph={servicesContent.description}
-          center
-        />
+        <div className="mb-14 text-center">
+          <h2 className="mb-6 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[40px] md:leading-tight">
+            ¿Qué hacemos?
+          </h2>
+          <p className="mx-auto max-w-[800px] text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark md:text-lg">
+            {servicesContent.description}
+          </p>
+        </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
           {servicesContent.services.map((service, index) => (
@@ -52,8 +55,11 @@ const Services = () => {
               <p className="mb-8 text-body-color dark:text-body-color-dark">
                 {service.description}
               </p>
-              <Link href={service.link || "#"} className="text-primary hover:text-primary/80">
-                Saber más →
+              <Link 
+                href={service.link || "#"} 
+                className="inline-flex items-center justify-center px-6 py-2 bg-primary/10 text-primary rounded-lg hover:bg-primary hover:text-white transition-colors duration-300 font-medium"
+              >
+                Saber más <span className="ml-2">→</span>
               </Link>
             </div>
           ))}

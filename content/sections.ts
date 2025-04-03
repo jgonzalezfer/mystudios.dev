@@ -71,28 +71,28 @@ export const servicesContent = {
       title: "Desarrollo Web",
       description: "Creamos sitios web atractivos, modernos y funcionales utilizando las últimas tecnologías como React, Next.js y más.",
       icon: "CodeBracketSquareIcon",
-      link: "/services/web-development"
+      link: "/#faq"
     },
     {
       id: "2",
       title: "Aplicaciones Móviles",
       description: "Desarrollamos aplicaciones móviles nativas y multiplataforma con React Native que ofrecen experiencias excepcionales.",
       icon: "DevicePhoneMobileIcon",
-      link: "/services/mobile-apps"
+      link: "/#faq"
     },
     {
       id: "3",
       title: "eCommerce",
       description: "Implementamos tiendas online completas y seguras que maximizan las conversiones y mejoran la experiencia de compra.",
       icon: "ShoppingCartIcon",
-      link: "/services/ecommerce"
+      link: "/#faq"
     },
     {
       id: "4",
       title: "Marketing Digital",
       description: "Diseñamos estrategias de marketing digital personalizadas para aumentar tu visibilidad online y atraer clientes.",
       icon: "ChartPieIcon",
-      link: "/services/digital-marketing"
+      link: "/#faq"
     }
   ]
 };

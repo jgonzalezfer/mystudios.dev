@@ -11,6 +11,7 @@ import Pricing from "@/components/sections/Pricing";
 import Brands from "@/components/sections/Brands";
 import CallToAction from "@/components/sections/CallToAction";
 import SpeedSection from "@/components/sections/SpeedSection";
+import Faq from "@/components/sections/Faq";
 
 // Componentes compartidos
 import ScrollToTop from "@/components/shared/ScrollToTop";
@@ -32,6 +33,7 @@ export default function Home() {
       <Testimonials />
       <Pricing />
       <SpeedSection />
+      <Faq />
       <CallToAction />
     </>
   );
