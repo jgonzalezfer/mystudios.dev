@@ -178,7 +178,7 @@ const Footer = () => {
                   </svg>
                 </span>
                 <p className="text-base font-medium text-body-color">
-                  Email: info@mystudiodev.com
+                  Email: info@mystudiodev.cldev.com
                 </p>
               </div>
             </div>

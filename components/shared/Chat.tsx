@@ -24,7 +24,7 @@ const botResponses = [
   },
   {
     trigger: ["contacto", "contactar", "hablar", "llamar", "teléfono", "email", "correo"],
-    response: "Puedes contactarnos a través de nuestro formulario en la sección de contacto, o directamente al correo info@mystudios.dev. También puedes solicitar una llamada y nos pondremos en contacto contigo lo antes posible."
+    response: "Puedes contactarnos a través de nuestro formulario en la sección de contacto, o directamente al correo info@mystudiodev.cls.dev. También puedes solicitar una llamada y nos pondremos en contacto contigo lo antes posible."
   },
   {
     trigger: ["gracias", "thank you", "thanks", "genial", "excelente"],

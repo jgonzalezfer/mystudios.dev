@@ -20,7 +20,7 @@ export const navLinks = [
 // Configuración de WhatsApp
 export const whatsappConfig = {
   // Número de WhatsApp (formato internacional sin '+')
-  phoneNumber: "56912345678",
+  phoneNumber: "56972996030",
   
   // Mensaje predeterminado cuando el usuario hace clic en el botón
   defaultMessage: "Hola, me gustaría obtener más información sobre sus servicios.",

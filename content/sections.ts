@@ -9,8 +9,8 @@ export const heroContent = {
   title: "Potencia tu negocio con soluciones digitales innovadoras",
   subtitle: "MyStudio.dev",
   description: "Somos expertos en desarrollo web, aplicaciones móviles y soluciones digitales que impulsan el crecimiento de tu negocio. Creamos experiencias digitales potentes y memorables.",
-  buttonText: "Comenzar",
-  buttonLink: "/contact",
+  buttonText: "Ver Precios",
+  buttonLink: "/#services",
   secondaryButtonText: "Saber más",
   secondaryButtonLink: "/about"
 };

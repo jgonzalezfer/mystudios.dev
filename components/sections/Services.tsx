@@ -19,7 +19,7 @@ const Services = () => {
       <div className="absolute top-20 right-10 w-64 h-64 rounded-full bg-primary/5 blur-3xl"></div>
       <div className="absolute bottom-20 left-10 w-64 h-64 rounded-full bg-primary/5 blur-3xl"></div>
       
-      <div className="container relative z-10">
+      <div  id="services" className="container relative z-10">
         <div className="mb-16 text-center">
           <h2 className="mb-6 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[40px] md:leading-tight">
             ¿Qué hacemos?
