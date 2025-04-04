@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About us"
+        pageName="Sobre nosotros"
         description="Acerca de Nosotros, donde la innovación y el compromiso se entrelazan. Estamos aquí para ofrecerte una visión más profunda de nuestra misión y cómo transformamos ideas en experiencias digitales excepcionales."
       />
       <AboutSectionOne />

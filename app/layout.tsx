@@ -1,9 +1,16 @@
 "use client";
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ScrollToTop from "@/components/ScrollToTop";
+import { Providers } from "./providers";
+import { siteConfig } from "./config";
 import { Inter } from "next/font/google";
+
+// Componentes de layout
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import ScrollToTop from "@/components/shared/ScrollToTop";
+import WhatsAppButton from "@/components/shared/WhatsAppButton";
+
+// Estilos globales
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
@@ -15,23 +22,38 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
+    <html suppressHydrationWarning lang="es">
+      <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DNB8SBMH2T"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-DNB8SBMH2T');
+            `,
+          }}
+        />
+        <title>{siteConfig.title}</title>
+        <meta name="description" content={siteConfig.description} />
+        <meta property="og:title" content={siteConfig.title} />
+        <meta property="og:description" content={siteConfig.description} />
+        <meta property="og:image" content={siteConfig.ogImage} />
+        <meta property="og:url" content={siteConfig.url} />
+        <link rel="icon" href="/favicon.ico" />
+      </head>
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
           <Header />
-          {children}
+          <main className="flex min-h-screen flex-col">{children}</main>
           <Footer />
           <ScrollToTop />
+          <WhatsAppButton />
         </Providers>
       </body>
     </html>
   );
 }
-
-import { Providers } from "./providers";
