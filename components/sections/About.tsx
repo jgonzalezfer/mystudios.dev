@@ -11,10 +11,10 @@ const About = () => {
           {/* Título y texto principal - izquierda */}
           <div className="w-full lg:w-5/12 lg:pr-8">
             <h2 className="mb-6 text-4xl font-bold leading-tight text-black dark:text-white">
-              DreamHost te ayuda a tener éxito
+            ¿Por qué elegirnos como tu socio digital?
             </h2>
             <p className="text-base md:text-lg font-medium text-body-color dark:text-white/70 mb-8">
-              Haz crecer tu sitio web más rápido utilizando a DreamHost como tu base.
+              Haz crecer tu sitio web más rápido utilizando a myStudio como tu base.
             </p>
             <Link
               href="/#contacto"
@@ -37,7 +37,7 @@ const About = () => {
                   </div>
                 </div>
                 <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
-                  Súper fácil de usar
+                  Plataforma fácil de gestionar
                 </h3>
                 <p className="text-base text-body-color dark:text-body-color-dark">
                   Nuestro panel de control personalizado es fácil de usar y elimina el dolor de cabeza de administrar tu alojamiento web.
@@ -54,7 +54,7 @@ const About = () => {
                   </div>
                 </div>
                 <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
-                  Con todas las herramientas
+                  Herramientas avanzadas para tu negocio
                 </h3>
                 <p className="text-base text-body-color dark:text-body-color-dark">
                   Hacemos más que alojar. Nuestro paquete de herramientas incluye todo lo que necesitas para ser exitoso.
@@ -71,7 +71,7 @@ const About = () => {
                   </div>
                 </div>
                 <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
-                  Rápido & Confiable
+                  Tecnología rápida y confiable
                 </h3>
                 <p className="text-base text-body-color dark:text-body-color-dark">
                   Si tu sitio web es lento o está caído, vas a perder clientes, conversiones y rango en los motores de búsqueda.
@@ -88,7 +88,7 @@ const About = () => {
                   </div>
                 </div>
                 <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
-                  Soporte Experto 24/7
+                  Soporte experto disponible 24/7
                 </h3>
                 <p className="text-base text-body-color dark:text-body-color-dark">
                   Nuestros expertos galardonados, con sede en los Estados Unidos, están disponibles para ayudarte cuando no sepas qué hacer - en cualquier momento, día o de noche.

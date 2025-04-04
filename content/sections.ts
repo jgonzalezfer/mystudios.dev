@@ -6,7 +6,7 @@ import { Service, Testimonial, PricingPlan, Brand } from "@/types";
 
 // Sección Hero
 export const heroContent = {
-  title: "Potencia tu negocio con soluciones digitales innovadoras",
+  title: "Impulsa tu negocio con soluciones digitales personalizadas",
   subtitle: "MyStudio.dev",
   description: "Somos expertos en desarrollo web, aplicaciones móviles y soluciones digitales que impulsan el crecimiento de tu negocio. Creamos experiencias digitales potentes y memorables.",
   buttonText: "Ver Precios",
@@ -17,43 +17,43 @@ export const heroContent = {
 
 // Sección de Características
 export const featuresContent = {
-  title: "Características Destacadas",
+  title: "Características clave de nuestros servicios digitales",
   subtitle: "¿Por qué elegirnos?",
   description: "Nuestro enfoque único combina diseño centrado en el usuario con tecnología de vanguardia para crear soluciones digitales excepcionales.",
   features: [
     {
       id: "1",
-      title: "Diseño Responsivo",
+      title: "Diseño web responsive y moderno",
       description: "Creamos sitios web que se adaptan perfectamente a cualquier dispositivo, desde móviles hasta escritorio.",
       icon: "DevicesMobileIcon"
     },
     {
       id: "2",
-      title: "Rendimiento Optimizado",
+      title: "Velocidad y rendimiento optimizado",
       description: "Nuestras soluciones están optimizadas para cargar rápidamente y ofrecer una experiencia fluida.",
       icon: "BoltIcon"
     },
     {
       id: "3",
-      title: "Escalabilidad",
+      title: "Escalabilidad para crecer con tu negocio",
       description: "Construimos sistemas que crecen con tu negocio, adaptándose a tus necesidades futuras.",
       icon: "ChartBarIcon"
     },
     {
       id: "4",
-      title: "Seguridad Avanzada",
+      title: "Seguridad web avanzada y protección de datos",
       description: "Implementamos las mejores prácticas de seguridad para proteger tus datos y los de tus clientes.",
       icon: "ShieldCheckIcon"
     },
     {
       id: "5",
-      title: "SEO Optimizado",
+      title: "Optimización SEO para atraer más clientes",
       description: "Mejoramos tu visibilidad en los motores de búsqueda para que alcances a más clientes potenciales.",
       icon: "MagnifyingGlassIcon"
     },
     {
       id: "6",
-      title: "Soporte Continuo",
+      title: "Soporte técnico continuo y confiable",
       description: "Ofrecemos soporte técnico y mantenimiento para asegurar que tu solución digital funcione sin problemas.",
       icon: "LifebuoyIcon"
     }
@@ -68,28 +68,28 @@ export const servicesContent = {
   services: [
     {
       id: "1",
-      title: "Desarrollo Web",
+      title: "Desarrollo de sitios web profesionales",
       description: "Creamos sitios web atractivos, modernos y funcionales utilizando las últimas tecnologías como React, Next.js y más.",
       icon: "CodeBracketSquareIcon",
       link: "/#faq"
     },
     {
       id: "2",
-      title: "Aplicaciones Móviles",
+      title: "Aplicaciones móviles a medida",
       description: "Desarrollamos aplicaciones móviles nativas y multiplataforma con React Native que ofrecen experiencias excepcionales.",
       icon: "DevicePhoneMobileIcon",
       link: "/#faq"
     },
     {
       id: "3",
-      title: "eCommerce",
+      title: "Tiendas online (eCommerce) rentables",
       description: "Implementamos tiendas online completas y seguras que maximizan las conversiones y mejoran la experiencia de compra.",
       icon: "ShoppingCartIcon",
       link: "/#faq"
     },
     {
       id: "4",
-      title: "Marketing Digital",
+      title: "Estrategias de marketing digital efectivas",
       description: "Diseñamos estrategias de marketing digital personalizadas para aumentar tu visibilidad online y atraer clientes.",
       icon: "ChartPieIcon",
       link: "/#faq"
@@ -99,13 +99,13 @@ export const servicesContent = {
 
 // Testimonios
 export const testimonialsContent = {
-  title: "Lo que dicen nuestros clientes",
+  title: "Testimonios de nuestros clientes satisfechos",
   subtitle: "Testimonios",
   description: "Descubre cómo hemos ayudado a empresas como la tuya a alcanzar sus objetivos digitales.",
   testimonials: [
     {
       id: "1",
-      name: "Carlos Rodríguez",
+      name: "Carlos Rodríguez – “Transformaron mi tienda online”",
       role: "CEO, stduicurso Chile",
       content: "MyStudio.dev transformó nuestra presencia digital. Su enfoque profesional y su experiencia técnica nos permitieron lanzar una plataforma que ha superado todas nuestras expectativas.",
       avatar: "/images/testimonies/CarlosRodríguez.png",
@@ -113,7 +113,7 @@ export const testimonialsContent = {
     },
     {
       id: "2",
-      name: "María González",
+      name: "María González – “Aumentamos el tráfico y las ventas”",
       role: "CEO, TechSolutions Chile",
       content: "llevó nuestra tienda online al siguiente nivel. Su experiencia técnica y enfoque estratégico nos permitieron ofrecer una experiencia de compra fluida y atractiva para nuestros clientes.",
       avatar: "/images/testimonies/MaríaGonzález.png",
@@ -121,7 +121,7 @@ export const testimonialsContent = {
     },
     {
       id: "3",
-      name: "Juan Pérez",
+      name: "Juan Pérez – “Excelente atención y resultados”",
       role: "Masvelaslindas",
       content: "MyStudio.dev revolucionó nuestra tienda online de velas aromáticas. Gracias a su experiencia técnica y enfoque profesional, ahora ofrecemos una plataforma intuitiva y atractiva que ha superado todas nuestras expectativas.",
       avatar: "/images/testimonies/JuanPérez.png",
@@ -129,7 +129,7 @@ export const testimonialsContent = {
     },
     {
       id: "4",
-      name: "Sebastián Gonzalez",
+      name: "Sebastián González – “Mi proyecto despegó gracias a ellos”",
       role: "CEO, letreros pintados",
       content: "MyStudio.dev transformó nuestra tienda online de Letreros Pintados. Su enfoque profesional y experiencia técnica nos permitieron crear una plataforma efectiva para mostrar y vender nuestros productos, superando todas nuestras expectativas.",
       avatar: "/images/testimonies/SebastiáGonzalez.png",
@@ -137,7 +137,7 @@ export const testimonialsContent = {
     },
     {
       id: "5",
-      name: "Camila Fernandez",
+      name: "Camila Fernández – “Me ayudaron desde cero”",
       role: "CEO, storepia Chile",
       content: "MyStudio.dev transformó nuestra tienda online de ropa en EE. UU. Gracias a su experiencia técnica y enfoque profesional, pudimos crear una plataforma intuitiva y atractiva que ha superado nuestras expectativas en cada detalle",
       avatar: "/images/testimonies/CamilFernandez.png",
@@ -147,13 +147,13 @@ export const testimonialsContent = {
 
 // Precios
 export const pricingContent = {
-  title: "¿Qué hacemos?",
+  title: "Lo que incluye cada uno de nuestros servicios",
   subtitle: "Nuestras soluciones para tu negocio",
   description: "Desarrollamos soluciones digitales profesionales que impulsan el crecimiento de tu negocio.",
   plans: [
     {
       id: "1",
-      name: "Sitios Web Corporativos",
+      name: "Sitios web corporativos para empresas modernas",
       price: "",
       description: "Diseños personalizados, rápidos y optimizados para destacar tu marca en línea. Incluye formularios adaptados para desktop y mobile, ideales para captar clientes potenciales.",
       features: [
@@ -169,7 +169,7 @@ export const pricingContent = {
     },
     {
       id: "2",
-      name: "Tiendas Online / Ecommerce",
+      name: "Tiendas online optimizadas para vender más",
       price: "",
       description: "Crea tu tienda digital con plataformas optimizadas para conversiones y pagos seguros. Trabajamos con Shopify, WooCommerce y más. Te asesoramos en cada paso.",
       features: [
@@ -185,7 +185,7 @@ export const pricingContent = {
     },
     {
       id: "3",
-      name: "Desarrollo de Software a Medida",
+      name: "Software personalizado según tus necesidades",
       price: "",
       description: "Soluciones personalizadas en React, aplicaciones móviles y software de escritorio diseñados a la medida de tu negocio.",
       features: [

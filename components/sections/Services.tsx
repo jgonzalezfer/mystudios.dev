@@ -22,7 +22,7 @@ const Services = () => {
       <div  id="services" className="container relative z-10">
         <div className="mb-16 text-center">
           <h2 className="mb-6 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[40px] md:leading-tight">
-            ¿Qué hacemos?
+          Servicios de desarrollo y marketing digital
           </h2>
           <p className="mx-auto max-w-[800px] text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark md:text-lg">
             {servicesContent.description}

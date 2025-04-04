@@ -31,7 +31,7 @@ const Faq = () => {
   // Datos de FAQ
   const faqData: FaqCategory[] = [
     {
-      title: "Sobre nuestros servicios",
+      title: "¿Qué incluyen nuestros servicios digitales?",
       icon: "CodeBracketSquareIcon",
       items: [
         {
@@ -57,7 +57,7 @@ const Faq = () => {
       ],
     },
     {
-      title: "Sobre tiempos y costos",
+      title: "¿Cuánto tiempo y dinero necesito para mi proyecto?",
       icon: "ClockIcon",
       items: [
         {
@@ -75,7 +75,7 @@ const Faq = () => {
       ],
     },
     {
-      title: "Sobre soporte y mantenimiento",
+      title: "¿Qué tipo de soporte y mantenimiento ofrecemos?",
       icon: "LifebuoyIcon",
       items: [
         {
@@ -93,7 +93,7 @@ const Faq = () => {
       ],
     },
     {
-      title: "Sobre SEO y marketing digital",
+      title: "¿Cómo potenciamos tu visibilidad con SEO y marketing digital?",
       icon: "ChartBarIcon",
       items: [
         {
@@ -123,8 +123,8 @@ const Faq = () => {
       
       <div className="container px-4 mx-auto relative z-10">
         <SectionTitle
-          title="Preguntas Frecuentes"
-          paragraph="Aquí encontrarás respuestas a las dudas más comunes sobre nuestros servicios y procesos."
+          title="Respuestas a preguntas frecuentes ¿Qué incluyen nuestros servicios digitales?"
+          paragraph="Aquí encontrarás respuestas a las dudas más comunes ¿Qué incluyen nuestros servicios digitales? y procesos."
           center
           width="760px"
           mb="60px"

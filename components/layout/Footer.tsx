@@ -93,7 +93,7 @@ const Footer = () => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
             <div className="mb-12 lg:mb-16">
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                Enlaces útiles
+                Recursos para mejorar tu presencia digital
               </h2>
               <ul>
                 {navLinks.map((link, index) => (
@@ -121,7 +121,7 @@ const Footer = () => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12">
             <div className="mb-12 lg:mb-16">
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                Contacto
+              Contáctanos y transforma tu idea en un proyecto exitoso
               </h2>
               <div className="mb-4 flex items-center">
                 <span className="mr-3 text-primary">
@@ -178,7 +178,7 @@ const Footer = () => {
                   </svg>
                 </span>
                 <p className="text-base font-medium text-body-color">
-                  Email: info@mystudiodev.cldev.com
+                  Email: info@mystudiodev.cl
                 </p>
               </div>
             </div>

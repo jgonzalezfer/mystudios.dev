@@ -128,7 +128,7 @@ const SpeedSection = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-6">
-            Velocidad y Seguridad para tu Plataforma Online
+            Rendimiento, seguridad y éxito para tu negocio digital
             </h2>
             
             <p className="text-base md:text-lg text-body-color dark:text-body-color-dark mb-8">

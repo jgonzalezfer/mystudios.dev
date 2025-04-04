@@ -18,7 +18,7 @@ const CallToAction = () => {
       <div className="container relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl md:text-5xl mb-6">
-            ¿Aún tienes dudas?
+            ¿Tienes dudas o quieres comenzar tu proyecto?
           </h2>
           
           <p className="text-xl text-body-color dark:text-body-color-dark mb-8">
