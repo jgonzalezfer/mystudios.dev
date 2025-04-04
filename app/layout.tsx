@@ -24,6 +24,18 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="es">
       <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DNB8SBMH2T"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-DNB8SBMH2T');
+            `,
+          }}
+        />
         <title>{siteConfig.title}</title>
         <meta name="description" content={siteConfig.description} />
         <meta property="og:title" content={siteConfig.title} />
