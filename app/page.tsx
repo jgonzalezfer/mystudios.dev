@@ -4,7 +4,6 @@ import { siteConfig } from "./config";
 // Componentes de página
 import Hero from "@/components/sections/Hero";
 import Features from "@/components/sections/Features";
-import About from "@/components/sections/About";
 import Services from "@/components/sections/Services";
 import Testimonials from "@/components/sections/Testimonials";
 import Pricing from "@/components/sections/Pricing";
@@ -38,10 +37,6 @@ export default function Home() {
       {/* Separador entre Features y Servicios */}
       <SectionDivider variant="gradient" color="primary" />
       <Services />
-      
-      {/* Separador entre Servicios y About */}
-      <SectionDivider variant="gradient" color="primary" />
-      <About />
       
       {/* Separador con forma de onda antes de Testimonios */}
       <SectionDivider variant="wave" backgroundColor="white" />
